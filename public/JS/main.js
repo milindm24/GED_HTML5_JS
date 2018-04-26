@@ -73,10 +73,6 @@ onChooseFile = () =>{
  }
  
  
- onShowStats = ()=>{
- 
- }
- 
  expandCountries = () => {
     var expandCountries = new LeftNavControl();
     expandCountries.expandCountries();
@@ -111,4 +107,11 @@ onViewChart = (chartArray=copyArray,chartHeader=headerArray,chartType="bar")=>{
     createChart.onViewChart(chartArray,chartHeader,chartType);
  }
 
- 
+
+
+ onShowStats = (value)=>{
+    if (value==="Min"){}
+    else if (value==="Min"){}
+    else if (value==="Min"){}
+    else if (value==="Min"){}
+}

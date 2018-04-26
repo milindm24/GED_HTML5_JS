@@ -1,0 +1,11 @@
+class Average {
+
+    constructor(){
+        
+    }
+
+    calculate(){
+        
+    }
+
+}

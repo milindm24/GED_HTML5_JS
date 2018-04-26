@@ -1,0 +1,11 @@
+class Sum {
+
+    constructor(){
+        
+    }
+
+    calculate(){
+        
+    }
+
+}

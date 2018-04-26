@@ -1,0 +1,11 @@
+class Min {
+
+    constructor(){
+        
+    }
+
+    calculate(){
+        
+    }
+
+}

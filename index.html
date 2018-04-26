@@ -12,7 +12,6 @@
         <button onclick="onAddFiles()"> ADD files </button>
         <button onclick="viewData()"> View Table </button>
         <button onclick="onViewChart()"> View Charts </button>
-        <button onclick="onShowStats()"> View Stats </button>
     </header>        
         <div class="leftNav">
             <ul class="mainUL" id="countriesUl">
@@ -109,10 +108,10 @@
                 </li>
                 <li id="statsSub">
                     <div>
-                        <label><input type="radio" id="min" value="min" name="stats" onclick="onViewChart(this.value)">Min</label>
-                        <label><input type="radio" id="max" value="max" name="stats" onclick="onViewChart(this.value)">Max</label>
-                        <label><input type="radio" id="avg" value="avg" name="stats" onclick="onViewChart(this.value)">Average</label>
-                        <label><input type="radio" id="sum" value="sum" name="stats" onclick="onViewChart(this.value)">Sum</label>
+                        <label><input type="radio" id="min" value="min" name="stats" onclick="onShowStats(this.value)">Min</label>
+                        <label><input type="radio" id="max" value="max" name="stats" onclick="onShowStats(this.value)">Max</label>
+                        <label><input type="radio" id="avg" value="avg" name="stats" onclick="onShowStats(this.value)">Average</label>
+                        <label><input type="radio" id="sum" value="sum" name="stats" onclick="onShowStats(this.value)">Sum</label>
                     </div>
                 </li>
                 <script>

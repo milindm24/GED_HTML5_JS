@@ -1,0 +1,11 @@
+class Max {
+
+    constructor(){
+
+    }
+
+    calculate(){
+        
+    }
+
+}
