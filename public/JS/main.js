@@ -110,8 +110,20 @@ onViewChart = (chartArray=copyArray,chartHeader=headerArray,chartType="bar")=>{
 
 
  onShowStats = (value)=>{
-    if (value==="Min"){}
-    else if (value==="Min"){}
-    else if (value==="Min"){}
-    else if (value==="Min"){}
+    if (value==="min"){
+        var min = new Min();
+        min.calculate();
+    }
+    else if (value==="max"){
+        var max = new Max();
+        max.calculate();
+    }
+    else if (value==="avg"){
+        var avg = new Average();
+        avg.calculate();
+    }
+    else if (value==="sum"){
+        var sum = new Sum();
+        sum.calculate();
+    }
 }

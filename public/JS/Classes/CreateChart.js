@@ -9,8 +9,7 @@ class CreateChart {
         var G = Math.floor(Math.random() * 255);
         var B = Math.floor(Math.random() * 255);
         var fillPattern = `rgb(${R},${G},${B})`;
-        var fillPatternLine =  `rgba(${R},${G},${B},0.2)` ;
-        console.log(fillPattern);
+        var fillPatternLine =  `rgba(${R},${G},${B},0.2)`;
         if (chartType === "line" || chartType ==="radar")
         return fillPatternLine;
         else
