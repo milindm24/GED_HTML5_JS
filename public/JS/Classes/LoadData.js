@@ -1,4 +1,4 @@
-class ReadFiles {
+class LoadData {
 
     constructor() {
 
